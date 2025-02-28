@@ -1,0 +1,72 @@
+#mundo{
+    text-align: center;
+    border: solid 5px red;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    outline: solid 5px black;
+    width: max-content;
+    margin: 10px 10px 0px 25px;
+    display: inline-block;
+}
+
+#alisson{
+    text-align: center;
+    border: solid 5px rgb(248, 154, 248);
+    background-color: rgb(85, 11, 104);
+    padding: 10px;
+    color: rgb(212, 0, 255);
+    outline: solid 5px rgb(255, 0, 221);
+    width: max-content;
+    margin: 10px 10px 0px 5px;
+    display: inline-block
+}
+
+ul{
+    margin: 30px 10px 10px 10px;
+}
+
+.topico{
+    font: normal bolder 20px Cambria;
+}
+
+.topico:hover{
+    text-decoration: underline;
+}
+
+blockquote{
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    width: 500px;
+}
+
+blockquote:hover{
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.conteúdo{
+    background-color: rgb(201, 255, 120);
+    box-shadow: 5px 5px 5px rgb(1, 82, 8);
+}
+
+.borda{
+    background-color: rgb(248, 132, 132);
+    box-shadow: 5px 5px 5px rgb(90, 1, 1);
+}
+
+.preenchimento{
+    background-color: rgb(255, 255, 141);
+    box-shadow: 5px 5px 5px rgb(66, 66, 0);
+}
+
+.margem{
+    background-color: rgb(152, 152, 255);
+    box-shadow: 5px 5px 5px rgb(0, 0, 61);
+}
+
+.contorno{
+    background-color: rgb(196, 134, 255);
+    box-shadow: 5px 5px 5px rgb(29, 0, 58);
+}

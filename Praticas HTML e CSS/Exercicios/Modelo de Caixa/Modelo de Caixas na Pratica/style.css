@@ -1,0 +1,28 @@
+h1{
+    background-color: darksalmon;
+    height: 300px;
+    width: 300px;
+    border: 15px groove rgb(73, 252, 118);
+    padding: 10px 30px;
+    margin: 20px auto;
+    outline: 5px dashed rgb(75, 75, 252);
+}
+
+a{
+    border: groove 5px red;
+    padding: 5px;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    display: block;
+}
+
+a:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+a:visited{
+    color: crimson;
+    text-decoration: solid;
+}

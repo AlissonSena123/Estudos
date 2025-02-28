@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+/* 
+
+Seletores
+
+    id = #
+    class = .
+
+--- Exemplo ---
+
+    No HTML: 
+    
+    <h1 id="titulo"></id>
+    
+    No CSS: 
+    
+    #titulo{
+        text-align: center;
+    }
+
+------------------------------
+
+*/
+
+body { 
+    font: normal bold 1em Arial, monospace;
+    background-color: rgb(209, 255, 228);
+}
+
+
+#Principal{
+    color: rgb(0, 1, 58);
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.destaque{
+    color: rgb(0, 1, 58);
+    background-color: cornflowerblue;
+}
+
+.importante{
+    color: rgb(0, 68, 57);
+}

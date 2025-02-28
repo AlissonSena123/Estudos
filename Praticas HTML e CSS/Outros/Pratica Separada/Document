@@ -1,0 +1,9 @@
+var nome = "Alis
+
+
+var nome = 'Alisson'
+nome
+if(nome=='Alisson'){
+console.log("oi")
+}
+console.log("Olá, Mundo")

@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(to bottom, #00CEC7, #01B9EB, #0384EA);
+    background-attachment: fixed;
+}
+
+.Assunto{
+    text-align: justify;
+    text-indent: 10px;
+    background-color: #195E70;
+    padding: 10px;
+    border-radius: 20px;
+    color: #A2CDD9;
+    font: italic bold 0.8em Arial;
+}
+
+.sub-titulo{
+    color: #a3ebff;
+    text-shadow: 0px 2px 0px #0E333D;
+    font: normal bolder 2em Arial;
+}
+
+.outros{
+    color: #d3f6ff;
+}
+
+#titulo{
+    text-align: center;
+    background-color: #195E70;
+    border-radius: 20px;
+    padding: 10px;
+    color: #A2CDD9;
+    text-shadow: 0px 3px 0px #0E333D;
+    font: normal bolder 2em Arial;
+    box-shadow: 0px 10px 0px #0E333D;
+}

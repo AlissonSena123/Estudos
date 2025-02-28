@@ -1,0 +1,42 @@
+
+:root{
+    --cor1: #F2B199;
+    --cor2: #D99152;
+    --cor3: #8C3F23;
+    --cor4: #593825;
+}
+
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: var(--cor2);
+    padding: 20px;
+    max-width: 1500px;
+    min-width: 250px;
+}
+
+header h1{
+    font: normal bold 2em Arial;
+    color: var(--cor3);
+    text-shadow: -3px 0px 0px var(--cor4);
+}
+
+nav{
+    text-align: end;
+    padding: 10px;
+    background-color: var(--cor4);
+}
+
+nav > a{
+    color: var(--cor1);
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+

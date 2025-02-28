@@ -1,0 +1,90 @@
+body{
+    background-color: #F27A65;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+
+header{
+    background-color: #F2AA89;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+nav{
+    background-color: #BF3939;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: inset 0px -7px 11px #5218188f;
+}
+
+nav > a{
+    color: #F2EAC0;
+    font-weight: bolder;
+    margin: auto 5px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: #F2AA89;
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 10px 0px;
+    box-shadow: 0px 6px 0px #BF3939;
+}
+
+article{
+    background-color: #BF3939;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside{
+    text-align: right;
+    background-color:#F2AA89;
+    font-weight: bolder;
+    border-radius: 40px;
+    box-shadow: 0px 5px 10px #521818;
+}
+
+aside > p{
+    margin-right: 10px;
+}
+
+#noticias > article > h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #F2AA89;
+    text-shadow: 2px 2px 0px #521818;
+}
+
+#noticias > article > p{
+    text-align: justify;
+    font-weight: bolder;
+}
+
+footer{
+    text-align: center;
+    background-color: #F2EAC0;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+    margin: auto;
+}
+
+footer > p{
+    margin: 5px;
+}
+
+div#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}

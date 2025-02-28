@@ -1,0 +1,43 @@
+body{
+    background-image: linear-gradient(to bottom, #A2BAFF, #FFCBBA, #DB4161);
+    background-attachment: fixed;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.importante{
+    background-color:#DB4161;
+    color: #A2BAFF;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+a::after{
+    content: ' <<< ';
+    text-decoration: none;
+    font-weight: normal;
+    color:black;
+}
+
+a::before{
+    content: ' >>> ';
+    text-decoration: none;
+    font-weight: normal;
+    color:black;
+}
+
+.importante::before{
+    content: '>>> ';
+    color: #A2BAFF;
+}
+
+.importante::after{
+    content: ' <<<';
+    color: #A2BAFF;
+}

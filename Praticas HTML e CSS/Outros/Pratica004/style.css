@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Bubble';
+    src: url('Fontes/Daily Bubble.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+/* Tipos de Format:
+
+    - opentype (otf)
+    - truetype (ttf)
+    - embeded-opentype
+    - truetype-aat
+    - svg
+
+*/
+
+body{
+    font-family: 'Bubble';
+}
